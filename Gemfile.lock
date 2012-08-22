@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    spree_gateway (1.0.0)
+    spree_gateway (1.2.0.rc2)
       spree_core (~> 1.2.0.rc2)
 
 GEM
