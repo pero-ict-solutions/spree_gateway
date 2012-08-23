@@ -1,7 +1,6 @@
 module Spree
   class Gateway::Eway < Gateway
     preference :login, :string
-    preference :test_mode, :boolean
 
     attr_accessible :preferred_login
 

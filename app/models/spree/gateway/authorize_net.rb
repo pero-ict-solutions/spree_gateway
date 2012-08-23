@@ -2,7 +2,6 @@ module Spree
   class Gateway::AuthorizeNet < Gateway
     preference :login, :string
     preference :password, :string
-    preference :test_mode, :boolean
 
     attr_accessible :preferred_login, :preferred_password
 

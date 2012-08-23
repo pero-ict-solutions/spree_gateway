@@ -2,9 +2,9 @@ module Spree
   class Gateway::AuthorizeNetCim < Gateway
     preference :login, :string
     preference :password, :string
-    preference :test_mode, :boolean, :default => false
+
     preference :validate_on_profile_create, :boolean, :default => false
-    
+
     attr_accessible :preferred_login, :preferred_password, :preferred_test_mode, :preferred_validate_on_profile_create
 
     ActiveMerchant::Billing::Response.class_eval do
